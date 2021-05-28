@@ -49,3 +49,4 @@ const server = http.createServer(requestListener);
 server.listen(port,hostName,() => {
     console.log(`Server berjalan pada http://${hostName}:${port}`);
 });
+// console.log(server);
